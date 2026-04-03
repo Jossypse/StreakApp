@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Streak</string>
+    <!--
+      Must be the *OAuth Web client ID* from Firebase.
+      Example format: 1234567890-abcdefg.apps.googleusercontent.com
+      (It should NOT start with "AIza..." which is an API key.)
+    -->
+    <string name="default_web_client_id">388678969618-4skfdnqh8is613qkadrg37q590tnjkbt.apps.googleusercontent.com</string>
+</resources>
