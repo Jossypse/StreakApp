@@ -75,14 +75,7 @@ fun LoginScreen(navController: NavController) {
 
     // Prepare Google Sign-In client
     val googleSignInClient = remember {
-        if (webClientId.startsWith("AIza")) {
-            val msg =
-                "default_web_client_id looks like an API key. It must be the OAuth Web Client ID from Firebase."
-            Log.e(
-                "LoginScreen",
-                msg
-            )
-        }
+        
 
         val options = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
             .requestIdToken(webClientId)
