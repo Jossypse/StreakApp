@@ -24,3 +24,14 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+@Composable
+fun StreakApp() {
+    Text("Hello Streak")
+}
+@Preview(showBackground = true)
+@Composable
+fun StreakAppPreview() {
+    StreakTheme {
+        StreakApp()
+    }
+}
